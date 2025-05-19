@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppLayoutsJosueMullo.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="0"
+            Color="Red" />
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="1"
+            Color="Green" />
+        <BoxView
+            Grid.Row="1"
+            Grid.Column="0"
+            Color="Blue" />
+        <BoxView
+            Grid.Row="1"
+            Grid.Column="1"
+            Color="Yellow" />
+        <Button
+            x:Name="btnIrAStack"
+            Text="Ir a StackLayout"
+            Grid.Row="1"
+            Grid.Column="1"
+            Clicked="btnIrAStack_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="White"
+            TextColor="Black" />
+
+    </Grid>
+
+</ContentPage>
