@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppLayoutsJosueMullo.AbsoluteLayoutPage"
+             Title="AbsoluteLayoutPage">
+    <AbsoluteLayout>
+
+
+        <Image Source="linux_torvald.jpg"
+               AbsoluteLayout.LayoutBounds="0.5,0,100,100"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               Aspect="AspectFit" />
+
+
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="20,120,20,20" Spacing="20">
+                <Label Text="Linus Torvalds y el nacimiento de Linux" FontSize="24" FontAttributes="Bold" />
+                <Label Text="Linus Torvalds es un ingeniero de software finlandés conocido por haber creado el núcleo del sistema operativo Linux en 1991. En ese momento, era un estudiante universitario que solo buscaba hacer un sistema similar a UNIX como proyecto personal." FontSize="18" />
+                <Label Text="Su creación evolucionó rápidamente gracias a la colaboración de miles de desarrolladores de todo el mundo, convirtiéndose en uno de los proyectos de código abierto más importantes de la historia. Hoy en día, Linux se usa en servidores, supercomputadoras, sistemas embebidos y también como base para Android." FontSize="18" />
+                <Label Text="Torvalds también es conocido por crear Git, el sistema de control de versiones distribuido más utilizado en el desarrollo de software moderno." FontSize="18" />
+                <BoxView HeightRequest="600" Color="Transparent"/>
+            </StackLayout>
+        </ScrollView>
+
+
+        <Button x:Name="btnIrAGrid"
+                Text="Ir a GridLayout"
+                AbsoluteLayout.LayoutBounds="1,1,150,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="LightBlue"
+                Clicked="btnIrAGridClicked" />
+
+    </AbsoluteLayout>
+</ContentPage>

@@ -9,7 +9,7 @@ namespace MauiAppLayoutsJosueMullo
 
         private void btnIrAAbsolute_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new FlexLayoutPage());
+            Navigation.PushAsync(new AbsoluteLayoutPage());
         }
     }
 }
