@@ -1,10 +1,9 @@
-﻿using MauiAppLayoutsJosueMullo.Views;
-
+﻿
 namespace MauiAppLayoutsJosueMullo
 {
-    public partial class MainPage : ContentPage
+    public partial class GridLayoutPage : ContentPage
     {
-        public MainPage()
+        public GridLayoutPage()
         {
             InitializeComponent();
         }

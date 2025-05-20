@@ -1,14 +1,13 @@
-
 namespace MauiAppLayoutsJosueMullo
 {
-    public partial class StackLayoutPage : ContentPage
+    public partial class FlexLayoutPage : ContentPage
     {
-        public StackLayoutPage()
+        public FlexLayoutPage()
         {
             InitializeComponent();
         }
 
-        private void btnIrAFlex_Clicked(object sender, EventArgs e)
+        private void btnIrAAbsolute_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new FlexLayoutPage());
         }
