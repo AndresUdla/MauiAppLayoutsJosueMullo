@@ -4,18 +4,21 @@
              x:Class="MauiAppLayoutsJosueMullo.StackLayoutPage"
              Title="StackLayoutPage">
     <ScrollView>
-        <VerticalStackLayout>
-            <Label 
-              Text="Josue Mullo"
+        <VerticalStackLayout Spacing="19">
+            <Label
+              Text="Josue"
               FontSize="32"
-              HorizontalOptions="Center" />
+              TextColor="GreenYellow"
+              HorizontalOptions="Center"/>
             <Label 
-              Text="Josue Mullo"
+              Text="Mullo"
               FontSize="24"
+              TextColor="Blue"
               HorizontalOptions="Center" />
             <Label 
-              Text="Josue Mullo"
+              Text="Vega"
               FontSize="18"
+              TextColor="Red"
               HorizontalOptions="Center" />
             <Button 
               x:Name="btnIrAFlex"
